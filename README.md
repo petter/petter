@@ -5,7 +5,7 @@
 ```typescript
 export type Petter<SomethingExciting extends FullstackWork> = {
   pronouns: "he" | "him";
-  twitter: "@pettersmoen";
+  ["twitter/x"]: "@pettersmoen";
   blog: "pmoen.me";
 
   employedAt: "Bekk";

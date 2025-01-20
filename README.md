@@ -4,6 +4,7 @@
 export type Petter<SomethingExciting extends FullstackWork> = {
   pronouns: "he" | "him";
   ["twitter/x"]: "@pettersmoen";
+  bluesky: "@pmoen.me";
   blog: "pmoen.me";
 
   employedAt: "Bekk";

@@ -6,10 +6,10 @@ export type Petter<SomethingExciting extends FullstackWork> = {
   ["twitter/x"]: "@pettersmoen";
   bluesky: "@pmoen.me";
   blog: "pmoen.me";
+  basedIn: "Toronto 🇨🇦";
 
-  employedAt: "Bekk";
-  role: "Consultant";
-  currentlyWorkingOn: SomethingExciting;
+  workStatus: "Looking for new opporunities";
+  currentlyLookingFor: SomethingExciting;
   interests: "Creating stuff" | "Golf" | "Gaming" | "Pizza" | (string & {});
 };
 ```

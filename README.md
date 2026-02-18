@@ -10,6 +10,6 @@ export type Petter<SomethingExciting extends FullstackWork> = {
 
   workStatus: "Looking for new opporunities";
   currentlyLookingFor: SomethingExciting;
-  interests: "Creating stuff" | "Golf" | "Gaming" | "Pizza" | (string & {});
+  interests: "Creating stuff" | "Golf" | "Running" | "AI" | (string & {});
 };
 ```
